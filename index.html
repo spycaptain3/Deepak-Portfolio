@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/particle.css">
+    <link rel="stylesheet" href="./css/particleInfo.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/contactInfoForm.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/education.css">
+    <link rel="stylesheet" href="./css/skills.css">
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif; scroll-behavior: smooth; background-color: gray;">
+
+    <section id="navbar">
+        <div class="navbar">
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#contactMe">Contact us</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="home" class="particle-container ">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <div class="info">
+            <h1>I'm Deepak<span class="blink">_</span></h1>
+            <h3>a <span class="auto-type ">Software Developer </span></h3>
+        </div>
+    </section>
+
+    <section id="aboutMe" class="about" style="margin-top: 0px;">
+        <div class="aboutContent">
+            <img class="DeepakImage" src="./img/aboutImg/DeepakImage.jpeg" alt="Deepak Pic">
+            <div class="aboutContainer">
+                <h1 id="about">About</h1>
+                <p class="aboutContent">
+                    Pre final student of B.tech CSE with specialization cyber security in SRM Modinagar Delhi NCR
+                    campus.
+                    I Always want to become a good team member but also able to lead a team or group, Being a workhorse
+                    and punctual person, I don't treat deadlines as my foes.
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="myEducation" class="EducationSection" onmouseenter="svghover()" onmouseleave="svghoverrem">
+        <div class="education-container">
+            <div class="ContentEducation">
+                <h1 id="EducationTitle">EDUCATION</h1>
+            </div>
+
+            <div class="svgCarEdu">
+                <svg class="svgCarEduHover" id="" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600"
+                    shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <g transform="matrix(0-.25 0.25 0-511.616271 799.072495)">
+                        <path
+                            d="M1745.96,3499.21h62.71v-4.22c0-16.45,13.34-29.79,29.8-29.79h55.46l-7.8-102.01c-.09-1.25-.31-2.46-.46-3.69Zm400.67-136.02l-7.84,102.01h55.32c16.46,0,29.8,13.34,29.8,29.79v4.22h62.71l-139.55-139.54c-.14,1.17-.35,2.33-.44,3.52Zm-364.82-859.85h-35.85l35.37,35.37v-30.59c0-1.64.24-3.21.48-4.78Zm122.56,94.81h-63.6l37.89,37.89c9.71-11.88,18.32-24.55,25.71-37.89Zm223.84,0c7.39,13.34,15.99,26.01,25.71,37.89l37.89-37.89Zm123.04-59.44l35.37-35.37h-35.85c.24,1.57.48,3.14.48,4.78Zm-662.97-234.98h65.35c33.06,0,59.86,26.81,59.86,59.86v74.62h605.6v-74.62c0-33.05,26.79-59.86,59.85-59.86h65.36c33.05,0,59.86,26.81,59.86,59.86v125.21v89.16c0,33.06-26.81,59.86-59.86,59.86h-65.36c-33.06,0-59.85-26.8-59.85-59.86v-40.04l-131.91,131.91c6.29,5.34,12.79,10.47,19.62,15.24c72.78,50.76,124.31,129.89,138.71,221.32c2.28,14.46,3.6,29.28,3.9,44.34.12,2.58.12,5.16.12,7.74v20.64v44.33v28.38v44.34v69.83c0,69.42-56.27,125.69-125.75,125.69-21.34,0-40.72,8.74-54.78,22.87l150.09,150.08v-40.04c0-33.06,26.79-59.86,59.85-59.86h65.36c33.05,0,59.86,26.8,59.86,59.86v125.21v89.16c0,33.06-26.81,59.86-59.86,59.86h-65.36c-33.06,0-59.85-26.8-59.85-59.86v-74.62h-96.16c-3.24,12.95-14.86,22.59-28.82,22.59h-64.67l-1.22,15.91h28.94c12.47,0,22.59,10.11,22.59,22.58c0,12.49-10.12,22.6-22.59,22.6h-32.41l-.5,6.45-3.36,44.34-2.22,28.44-3.36,44.27-2.22,28.44-3.36,44.28-3.22,41.88h191.9c28.36,0,47.82,28.56,37.44,54.95l-18.67,47.5c-11.9,30.29-41.12,50.2-73.66,50.2h-148.73l-2.88,37.35c0,40.38-33.83,73.08-75.65,73.08-20.88,0-39.78-8.16-53.46-21.43-13.68-13.2-22.14-31.43-22.14-51.65l-2.86-37.35h-148.75c-32.53,0-61.76-19.91-73.65-50.2l-18.68-47.5c-10.37-26.39,9.09-54.95,37.45-54.95h191.94l-3.2-41.88h-.03l-3.36-44.28h.03l-2.16-28.44h-.03l-3.42-44.27h.02l-2.15-28.44h-.03l-3.42-44.34h.03l-.49-6.45h-32.48c-12.48,0-22.59-10.11-22.59-22.6c0-12.47,10.11-22.58,22.59-22.58h29.02l-1.21-15.91h-64.76c-13.96,0-25.58-9.64-28.82-22.59h-96.16v74.62c0,33.06-26.8,59.86-59.86,59.86h-65.35c-33.06,0-59.86-26.8-59.86-59.86v-89.16-125.21c0-33.06,26.8-59.86,59.86-59.86h65.35c33.06,0,59.86,26.8,59.86,59.86v40.04l150.18-150.18c-14.06-14.07-33.41-22.77-54.7-22.77h-.23c-69.42,0-125.69-56.27-125.69-125.69v-69.83-44.34-28.38-44.33-20.64c0-2.58,0-5.16.11-7.74.31-15.06,1.63-29.88,3.91-44.34c14.39-91.43,65.93-170.56,138.71-221.32c6.83-4.77,13.33-9.9,19.62-15.24l-131.91-131.91v40.04c0,33.06-26.8,59.86-59.86,59.86h-65.35c-33.06,0-59.86-26.8-59.86-59.86v-89.16-125.21c0-33.05,26.8-59.86,59.86-59.86"
+                            fill="#b1b1b0" />
+                        <path
+                            d="M2117.16,3642.84h-281.74c-12.48,0-22.59,10.11-22.59,22.58v0c0,12.49,10.11,22.6,22.59,22.6h281.74c12.47,0,22.59-10.11,22.59-22.6v0c0-12.47-10.12-22.58-22.59-22.58"
+                            fill="#768895" />
+                        <path d="M1684.65,3560.52L1651.12,3527l198.72-198.72l33.52,33.53-198.71,198.71"
+                            fill="#4b5762" />
+                        <path d="M2267.93,3560.52l33.52-33.52-198.71-198.72-33.53,33.53l198.72,198.71" fill="#4b5762" />
+                        <path
+                            d="M2154.11,3505.2h-355.64c-16.46,0-29.8,13.34-29.8,29.79v62.14c0,16.46,13.34,29.8,29.8,29.8h355.64c16.46,0,29.8-13.34,29.8-29.8v-62.14c0-16.45-13.34-29.79-29.8-29.79"
+                            fill="#36404a" />
+                        <path
+                            d="M2179.55,2516.42h-406.52c-17.51,0-31.7,14.19-31.7,31.7v58.34c0,17.5,14.19,31.69,31.7,31.69h406.52c17.51,0,31.69-14.19,31.69-31.69v-58.34c0-17.51-14.18-31.7-31.69-31.7"
+                            fill="#36404a" />
+                        <path d="M2332.49,3604.34h-712.4v-65.13h712.4v65.13" fill="#768895" />
+                        <path d="M1684.65,2522.03l-33.53,33.53l198.72,198.71l33.52-33.53-198.71-198.71"
+                            fill="#4b5762" />
+                        <path d="M2267.93,2522.03l33.52,33.53-198.71,198.71-33.53-33.53l198.72-198.71" fill="#4b5762" />
+                        <path
+                            d="M2258.41,3926.12h-564.24c-28.36,0-47.82,28.56-37.45,54.95l18.68,47.5c11.89,30.29,41.12,50.2,73.65,50.2h454.47c32.54,0,61.76-19.91,73.66-50.2l18.67-47.5c10.38-26.39-9.08-54.95-37.44-54.95"
+                            fill="#b71e24" />
+                        <path
+                            d="M2309.53,3205.99v-207.52c0-2.58,0-5.16-.12-7.74-.3-15.06-1.62-29.88-3.9-44.34-14.4-91.43-65.93-170.56-138.71-221.32-67.79-47.28-109.61-123.41-109.61-206.03v-8.27h-161.8v8.27c0,82.62-41.82,158.75-109.61,206.03-72.78,50.76-124.32,129.89-138.71,221.32-2.28,14.46-3.61,29.28-3.91,44.34-.11,2.58-.11,5.16-.11,7.74v207.52c0,69.42,56.27,125.69,125.69,125.69h.23c40.44,0,74.1,31.2,77.16,71.51l22.26,291.28l3.42,44.34l2.15,28.44l3.43,44.27l2.16,28.44l3.36,44.28l17.75,231.88c0,20.22,8.47,38.45,22.14,51.65c13.68,13.27,32.58,21.43,53.46,21.43c41.82,0,75.65-32.7,75.65-73.08l17.82-231.88l3.36-44.28l2.22-28.44l3.36-44.27l2.22-28.44l3.36-44.34l22.38-291.28c3.12-40.37,36.71-71.51,77.15-71.51c69.48,0,125.75-56.27,125.75-125.69"
+                            fill="#d5242c" />
+                        <path d="M2332.49,2478.21h-712.4v65.13h712.4v-65.13" fill="#768895" />
+                        <path
+                            d="M1976.29,2717.3v0c-155.28,0-281.17,125.87-281.17,281.16v175.09c0,58.58,47.49,106.07,106.07,106.07h350.19c58.59,0,106.08-47.49,106.08-106.07v-175.09c0-155.29-125.89-281.16-281.17-281.16"
+                            fill="#b71e24" />
+                        <path
+                            d="M1976.29,2794.1v0c-44.68,0-80.9,36.21-80.9,80.9v372.17c0,44.68,36.22,80.9,80.9,80.9v0c44.68,0,80.9-36.22,80.9-80.9v-372.17c0-44.69-36.22-80.9-80.9-80.9"
+                            fill="#191a1b" />
+                        <path
+                            d="M1613.63,2343.73h-65.35c-33.06,0-59.86,26.81-59.86,59.86v214.37c0,33.06,26.8,59.86,59.86,59.86h65.35c33.06,0,59.86-26.8,59.86-59.86v-214.37c0-33.05-26.8-59.86-59.86-59.86"
+                            fill="#21272d" />
+                        <path
+                            d="M1613.63,2343.73h-65.35c-33.06,0-59.86,26.81-59.86,59.86v125.21h185.07v-125.21c0-33.05-26.8-59.86-59.86-59.86"
+                            fill="#191a1b" />
+                        <path
+                            d="M2404.3,2343.73h-65.36c-33.06,0-59.85,26.81-59.85,59.86v214.37c0,33.06,26.79,59.86,59.85,59.86h65.36c33.05,0,59.86-26.8,59.86-59.86v-214.37c0-33.05-26.81-59.86-59.86-59.86"
+                            fill="#21272d" />
+                        <path
+                            d="M2404.3,2343.73h-65.36c-33.06,0-59.85,26.81-59.85,59.86v125.21h185.07v-125.21c0-33.05-26.81-59.86-59.86-59.86"
+                            fill="#191a1b" />
+                        <path
+                            d="M1613.63,3404.73h-65.35c-33.06,0-59.86,26.8-59.86,59.86v214.37c0,33.06,26.8,59.86,59.86,59.86h65.35c33.06,0,59.86-26.8,59.86-59.86v-214.37c0-33.06-26.8-59.86-59.86-59.86"
+                            fill="#21272d" />
+                        <path
+                            d="M1613.63,3404.73h-65.35c-33.06,0-59.86,26.8-59.86,59.86v125.21h185.07v-125.21c0-33.06-26.8-59.86-59.86-59.86"
+                            fill="#191a1b" />
+                        <path d="M2309.41,2990.73c-.3-15.06-1.62-29.88-3.9-44.34h-26.45v44.34h30.35" fill="#e7f1f3" />
+                        <path d="M2309.53,3063.44v-44.33h-30.47v44.33h30.47" fill="#e7f1f3" />
+                        <path d="M2309.53,3136.16v-44.34h-30.47v44.34h30.47" fill="#e7f1f3" />
+                        <path d="M1677.06,2990.73v-44.34h-29.99c-2.28,14.46-3.61,29.28-3.91,44.34h33.9"
+                            fill="#e7f1f3" />
+                        <path d="M1677.06,3063.44v-44.33h-34.01v44.33h34.01" fill="#e7f1f3" />
+                        <path
+                            d="M1976.29,2717.44v0c-66.87,0-121.08,54.2-121.08,121.07v445.15c0,66.87,54.21,121.07,121.08,121.07v0c66.86,0,121.07-54.2,121.07-121.07v-445.15c0-66.87-54.21-121.07-121.07-121.07"
+                            fill="#21272d" />
+                        <path d="M1677.06,3136.16v-44.34h-34.01v44.34h34.01" fill="#e7f1f3" />
+                        <path
+                            d="M2404.3,3404.73h-65.36c-33.06,0-59.85,26.8-59.85,59.86v214.37c0,33.06,26.79,59.86,59.85,59.86h65.36c33.05,0,59.86-26.8,59.86-59.86v-214.37c0-33.06-26.81-59.86-59.86-59.86"
+                            fill="#21272d" />
+                        <path
+                            d="M2404.3,3404.73h-65.36c-33.06,0-59.85,26.8-59.85,59.86v125.21h185.07v-125.21c0-33.06-26.81-59.86-59.86-59.86"
+                            fill="#191a1b" />
+                        <path d="M1934.77,3884.24v-44.28h-55.25l3.36,44.28h51.89" fill="#e7f1f3" />
+                        <path d="M1934.77,3811.52v-44.27h-60.83l3.42,44.27h57.41" fill="#e7f1f3" />
+                        <path d="M1934.77,3738.81v-44.34h-66.41l3.42,44.34h62.99" fill="#e7f1f3" />
+                        <path d="M2078.64,3767.25h-60.9v44.27h57.54l3.36-44.27" fill="#e7f1f3" />
+                        <path d="M2084.22,3694.47h-66.48v44.34h63.12l3.36-44.34" fill="#e7f1f3" />
+                        <path
+                            d="M2063.86,3203.98h-175.14c-11.27,0-20.39,9.13-20.39,20.39v0c0,11.26,9.12,20.39,20.39,20.39h175.14c11.27,0,20.39-9.13,20.39-20.39v0c0-11.26-9.12-20.39-20.39-20.39"
+                            fill="#768895" />
+                        <path
+                            d="M1809.44,3041.27c0-61.15-9.03-110.72-20.17-110.72s-20.17,49.57-20.17,110.72s9.03,110.72,20.17,110.72s20.17-49.57,20.17-110.72"
+                            fill="#9c1b20" />
+                        <path d="M2073.06,3839.96h-55.32v44.28h51.96l3.36-44.28" fill="#e7f1f3" />
+                        <path
+                            d="M2183.48,3041.27c0-61.15-9.03-110.72-20.17-110.72s-20.17,49.57-20.17,110.72s9.03,110.72,20.17,110.72s20.17-49.57,20.17-110.72"
+                            fill="#9c1b20" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="svgPathEdu">
+                <svg width="400" height="400" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 100 100 C 350 100 650 100 650 200 C 650 300 100 250 100 350 C 100 450 550 450 700 450"
+                        stroke="green" stroke-width="4" />
+
+                    <circle cx="620" cy="152" r="10" stroke="green" stroke-width="3" fill="white" />
+                    <circle cx="160" cy="305" r="10" stroke="green" stroke-width="3" fill="white" />
+                    <circle cx="645" cy="450" r="10" stroke="green" stroke-width="3" fill="white" />
+
+
+                </svg>
+            </div>
+
+            <div class="education school10">
+                <h1>Class 10<sup>th</sup></h1>
+                <hr>
+                <p id="tenthDetails">
+                    CGPA - 9.0<br>
+                    Passing Year - 2017<br>
+                    Board - CBSE<br>
+                    School - Jesus & Mary Academy,
+                    Darbhanga.
+                </p>
+            </div>
+
+            <div class="education school12">
+                <h1>Class 12<sup>th</sup></h1>
+                <hr>
+                <p id="tenthDetails">
+                    Percent - 62.2%<br>
+                    Passing Year - 2019<br>
+                    Board - CBSE<br>
+                    School - Jesus & Mary Academy, Darbhanga
+                </p>
+            </div>
+
+            <div class="clg">
+                <h1>B.Tech</h1>
+                <hr>
+                <p id="B.techDetails">
+                    Current CGPA - 8.76<br>
+                    Passing Year - 2024<br>
+                    Branch - CSE Cyber Security<br>
+                    College - SRM Institute of Science & <br>Technology, Delhi-NCR Campus
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- <hr> -->
+
+    <section id="skills" class="skills" onmouseenter="loadProgressBar()">
+        <div class="skills-container">
+            <div class="head-container">
+                <h1 id="SkillsTitle">SKILLS</h1>
+            </div>
+            <!-- <hr class="title-hr"> -->
+
+            <div class="LogoPart">
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/swiftLogoo.png" alt="swift">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/xcodeLogo.png" alt="xcode">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/cLogo.png" alt="cLang">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/CppLogo.png" alt="cpp">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/htmlLogo.webp" alt="html">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/cssLogo.avif" alt="css">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/GithubLogo.png" alt="github">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/figmaimage.png" alt="figma">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/canvaLogo.png" alt="canva">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="imageContent">
+                    <img class="images" src="./img/skillsLogo/vsCodeimage.png" alt="vscode">
+                    <div class="progress">
+                        <div class="progressBar" style="max-width: 95%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <hr> -->
+
+    <section id="projects">
+        <div class="projects">
+            <h1 class="project-header">PROJECTS</h1>
+            <div class="project-card-container">
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">Tic-Tak-Toe iOS app</h3>
+                        <p class="project-desciption">Swift, Xcode, Cocoa Touch, Multiple Screen View iOS Mobile App.
+                            </p>
+                    </div>
+                </div>
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">title written here</h3>
+                        <p class="project-desciption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+                            provident qui odio
+                            culpa corporis, maiores dolorem, dolore sed enim tenetur praesentium exercitationem! Culpa
+                            illo fugit ab
+                            nulla blanditiis iste quasi.</p>
+                    </div>
+                </div>
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">title written here</h3>
+                        <p class="project-desciption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+                            provident qui odio
+                            culpa corporis, maiores dolorem, dolore sed enim tenetur praesentium exercitationem! Culpa
+                            illo fugit ab
+                            nulla blanditiis iste quasi.</p>
+                    </div>
+                </div>
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">title written here</h3>
+                        <p class="project-desciption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+                            provident qui odio
+                            culpa corporis, maiores dolorem, dolore sed enim tenetur praesentium exercitationem! Culpa
+                            illo fugit ab
+                            nulla blanditiis iste quasi.</p>
+                    </div>
+                </div>
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">title written here</h3>
+                        <p class="project-desciption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+                            provident qui odio
+                            culpa corporis, maiores dolorem, dolore sed enim tenetur praesentium exercitationem! Culpa
+                            illo fugit ab
+                            nulla blanditiis iste quasi.</p>
+                    </div>
+                </div>
+                <div class="project-card-box">
+                    <img src="https://placehold.co/150x150" alt="project-img">
+                    <div class="project-card">
+                        <h3 class="project-title">title written here</h3>
+                        <p class="project-desciption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+                            provident qui odio
+                            culpa corporis, maiores dolorem, dolore sed enim tenetur praesentium exercitationem! Culpa
+                            illo fugit ab
+                            nulla blanditiis iste quasi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <hr> -->
+
+    <section id="contactMe" class="contactForm">
+        <div class="getInTouch">
+            <h1 id="Title">Get In Touch</h1>
+        </div>
+
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <!-- <h3>Bonjour!</h3> -->
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit"> Send </button>
+        </form>
+        </div>
+    </section>
+
+    <hr>
+    <section id="contacts">
+        <div class="contacts">
+            <div class="contactFirstColumn">
+                <h2 id="DeepakPort">
+                    Deepak's Portfolio
+                </h2>
+                <br>
+                Thank you for Visiting my personal Portfolio website. Connect with me through social media handles.
+            </div>
+
+            <div class="contactQuickLinks">
+                <h2 id="QuickLinks">Quick Links</h2>
+                <div class="QuickListing">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutMe">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#myEducation">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#">Experience</a></li> -->
+                    <!-- <li><a href="#">Certifications</a></li> -->
+                </div>
+            </div>
+
+            <div class="contactInfo">
+                <h2 id="contactin">Contact Info</h2>
+                <div class="uList">
+                    <ul id="details"><img class="Cimages" src="./img/footerLogo/whatsapp.jpg" alt="phone">+91 8448313254
+                    </ul>
+                    <ul id="details"><img class="Cimages" src="./img/footerLogo/gmail.jpg" alt="emailImage">
+                        spycaptain3@gmail.com</ul>
+                    <ul id="details"><img class="Cimages" src="./img/footerLogo/location.jpg" alt="addressImage"><a
+                            href="https://goo.gl/maps/Zpf3Lha1Hn33L1sF6">Ghaziabad, India</a></ul>
+                </div>
+            </div>
+        </div>
+        <footer>Copyright © 2023 Deepak | All rights reserved.</footer>
+    </section>
+
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particle.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/education.js"></script>
+    <script src="./js/skills.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+</body>
+
+</html>
