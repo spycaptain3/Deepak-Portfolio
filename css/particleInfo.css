@@ -1,0 +1,39 @@
+.info{
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+}
+
+.info h1 {
+    font-size: 4rem;
+    padding: 10px;
+    color: rgb(80, 220, 80);
+    font-weight: bolder;
+}
+
+.info h3 {
+    font-size: 3rem;
+    padding: 0px;
+}
+
+
+.blink{
+    animation: 1s linear infinite blink_animation;
+}
+
+@keyframes blink_animation {
+    0%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}

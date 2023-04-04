@@ -1,0 +1,48 @@
+.about{
+    background-color: black;
+    color: azure;
+    /* background-color: rgb(235, 222, 222); */
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aboutContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+#about{
+
+   text-decoration: underline;
+   font-style:oblique;
+   font-size: 4.5rem;
+   text-align: center;
+   width: 100%;
+   color: rgb(81, 125, 96);
+    margin-bottom: 30px; 
+}
+
+
+.DeepakImage{
+    width: 400px;
+    height:500px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.aboutContainer{
+    width: 70%;
+    margin: auto;
+    font-size: 30px;
+    word-wrap: break-word;
+    margin-left: 80px;
+    height: 700px;
+}

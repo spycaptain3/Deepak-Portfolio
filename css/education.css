@@ -1,0 +1,132 @@
+.EducationSection {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .education-container {
+
+} */
+
+#EducationTitle {
+    position: relative;
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    /* z-index: 1; */
+}
+
+.svgPathEdu svg {
+    width: 100%;
+    height: auto;
+    max-height: 780px;
+}
+
+.svgCarEdu {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    /* margin-left: 200px; */
+}
+
+.svgCarEdu svg {
+    offset-path: path('M 350 125 C 900 150 1050 175 1070 250 C 950 400 350 300 370 470 C 350 600 800 570 1070 580 ');
+    offset-distance: 0%;
+}
+
+#svgCarEduHover {
+    animation: move 9s ease-in-out forwards;
+}
+
+@keyframes move {
+    35% {
+        offset-distance: 30%;
+    }
+
+    66% {
+        offset-distance: 61%;
+    }
+
+    100% {
+        offset-distance: 100%;
+    }
+}
+
+.education, .clg {
+    position: absolute;
+    height: 150px;
+    font-size: 14px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 25px cyan;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education hr, .clg hr {
+    width: 80%;
+}
+
+.clg h1 {
+    padding: 5px;
+}
+.clg p {
+    margin: 10px;
+    padding: 5px;
+}
+
+.education p {
+    margin: 5px;
+    padding: 5px;
+} 
+
+.school10  {
+    width: 300px;
+    height: 170px;
+    top: 170px;
+    right: 100px;
+    opacity: 0;
+    /* animation: educard 4s ease-out forwards; */
+}
+
+.school12 {
+    width: 300px;
+    height: 170px;
+    top: 360px;
+    left: 80px;
+    opacity: 0;
+    /* animation: educard 8s ease-out forwards; */
+}
+
+.clg {
+    width: 350px;
+    height: 170px;
+    top: 500px;
+    right: 40px;
+    opacity: 0;
+    /* animation: educard 12s ease-out forwards; */
+}
+
+@keyframes educard {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

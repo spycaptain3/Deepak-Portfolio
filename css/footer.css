@@ -1,0 +1,72 @@
+#contacts {
+    width: 100%;
+    height: 240px;
+    background-color:black;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    color: rgb(208, 208, 227);
+
+}
+
+.contactFirstColumn{
+    margin: 20px;
+    font-style: oblique;
+    font-size: larger;
+    font-variant:inherit;
+    
+}
+#DeepakPort{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.contactQuickLinks{
+    margin: 20px;
+}
+#QuickLinks{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-style:italic;
+}
+.QuickListing{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+.contactInfo{
+    margin: 20px;
+}
+#contactin{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.uList{
+    font-size: 15px;
+}
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: left
+}
+
+#details img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+
+#details img a {
+    text-decoration-line: none;
+}

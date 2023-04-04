@@ -1,0 +1,94 @@
+
+.skills {
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgb(250 250 250);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SkillsTitle {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 5px;
+}
+
+.title-hr {
+    width: 50%;
+    margin: auto;
+}
+
+.images {
+    width: 60px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.LogoPart {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    border-radius: 15px;
+    background-color: rgb(250 250 250);
+}
+
+.imageContent {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(250, 250, 250);
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.577);
+}
+
+.progress {
+    width: 60%;
+    height: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* margin: 0 10px 0 10px; */
+}
+
+.progressBar {
+    position: relative;
+    width: 0%;
+    height: 10px;
+    background: rgb(27, 217, 27);
+    top: 50%;
+    transform: translate(0%, -50%);
+    border-radius: 10px 0 0 10px;
+    /* animation: loading 3s ease-in-out forwards; */
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
