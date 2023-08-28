@@ -1,0 +1,156 @@
+.iaminto
+{
+    width: 100%;
+    height: 650px;
+    background-color: brown;
+}
+.content
+{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(241, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.heading
+{
+    font-size:medium;
+    font-weight: 100;
+    color:#002d5b;
+    /* align-items: center; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom: 40px;
+
+}
+
+#dash
+{
+    font-weight: 500;
+    font-size: larger;
+    color: #da6558;
+}
+#head1
+{
+    font-size: 3rem;
+    font-weight: 100;
+    color:#002d5b;
+}
+
+.cards
+{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 230, 230);
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 20px; 
+    gap: 20px;   
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* box-shadow: 5px 15px 15px #da6558; */
+    overflow: hidden;
+}
+
+.card1
+{
+    background-color: white;
+    width: 350px;
+    height:500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    /* box-shadow: 0px 5px 10px #da6558; */
+    box-shadow: 0px 5px 10px #da6558;
+
+}
+.card2
+{
+    background-color: white;
+    width: 350px;
+    height:500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #da6558;
+}
+.card3
+{
+    background-color: white;
+    width: 350px;
+    height:500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #da6558;
+}
+
+#applelogo
+{
+   max-width: 70px;
+   height: auto; 
+   
+}
+#codingpic
+{
+    max-width: 70px;
+    height: auto;
+}
+#blocklogo
+{
+    max-width: 70px;
+    height: auto;
+}
+
+#para1
+{
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+#para2
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+}
+#para3
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+}
+#iosH1
+{
+    margin-top: 10px;
+}
+#webH2
+{
+    margin-top: 10px;
+}
+#blockH3
+{
+    margin-top: 10px;
+}

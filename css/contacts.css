@@ -1,0 +1,123 @@
+.contacts{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(16 44 88);
+    display: flex;
+    flex-direction: column;
+    
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+
+    
+}
+.contactsdetails{
+    height: 32vh;
+    width: 99%;
+    color:rgb(237, 251, 251);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+#thanks01{
+    color:rgb(193 116 110);
+}
+#thanks02{
+    font-style: italic;
+}
+.quicklinks{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+#quicktitle{
+    color: rgb(193 116 110);
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+.contactmail{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 55px;
+    /* justify-content: center; */
+    align-items: end;
+    margin-right: 50px;
+}
+
+#clickb{
+    color: white;
+    text-decoration: none;
+}
+
+#idemailimg{
+    width: 20px;
+    height: 20px;
+}
+#phonenumberimg{
+    width: 20px;
+    height: 20px;
+}
+
+#locationimg{
+    width: 20px;
+    height: 20px;
+}
+
+.emailid{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.phonenum{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#contactmail01{
+  color: rgb(193 116 110);
+  width: 200px;
+  /* background-color: aquamarine; */
+}
+
+.contactmail2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items:start;
+    /* background-color: blueviolet; */
+    width: 200px;
+}
+

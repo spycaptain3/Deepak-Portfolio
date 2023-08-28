@@ -1,0 +1,98 @@
+.home
+{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1px;
+    width: 95%;
+    height: 700px;
+    margin-left: 20px;
+    overflow: hidden;
+    
+}
+#clicka{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+/* .socialLogo
+{
+    width: 2px;
+    height: 2px;
+} */
+
+.sociallist
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 29px solid red; */
+    transform: scale(0.08); 
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 500px;
+
+}
+.socialLogo
+{
+    /* border: 2px blue solid; */
+    width: 12%;
+}
+.logoimg
+{
+margin-bottom: 300px;
+}
+
+
+.writenAbout
+{
+    /* border: 2px solid yellow; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5px;
+
+}
+
+.LearnButton
+{
+    margin-top: 70px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(219,101,89);
+    border-color: rgb(219,101,89);
+    border-radius: 3px;
+    font-weight: inherit;
+    font-size: medium;
+    font-style: inherit;
+}
+
+
+#heading
+{
+    font-size: 4rem;
+    color:#002d5b;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+#paragraphcontent
+{
+    
+    color: gray;
+    font-weight: 100;
+}
+
+.imageDeepak
+{
+    /* border: 2px solid orange; */
+    margin-bottom: 90px;
+}
+#dgimage
+{
+    box-shadow: 15px 2px 10px rgb(219,101,89);
+}

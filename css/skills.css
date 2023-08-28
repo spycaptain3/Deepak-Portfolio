@@ -1,0 +1,79 @@
+.skills {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+
+    margin-top: 50px;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(241, 191, 188, 0.5);
+}
+
+.skill1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill2 {
+
+    /* background-color: rgba(255 255 255); */
+    background-color: rgba(10 4 80);
+    width: 1050px;
+    height: 750px;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* box-shadow: 1px 1px 25px 1px #da6558; */
+    box-shadow: 1px 1px 25px 1px rgba(205 111 96);
+    border-radius: 5px;
+
+
+}
+
+.gridItem {
+    display: flex;
+    background-color: rgba(245 241 241);
+    height: 150px;
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 10px;
+    color: #272829;
+   
+    /* box-shadow: 1px 2px 4px 2px #da6558; */
+    box-shadow: 4px 6px 5px 1px rgba(205 111 96);
+
+}
+
+#skillshead {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #002d5b;
+    margin-top: 10px;
+}
+
+#underline {
+    font-weight: 500;
+    font-size: larger;
+    color: #da6558;
+}
+
+.simg {
+    height: 50px;
+    width: 50px;
+}

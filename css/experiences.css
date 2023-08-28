@@ -1,0 +1,109 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1320px;
+    width: 100%;
+    align-items: center;
+}
+.experience1{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    font-size: 2rem;
+    font-weight:100;
+    color:#002d5b;
+
+}
+.experience2{
+    height: 1148px;
+    width: 900px;
+    background-color: rgba(11 5 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(205 111 96);
+}
+
+.exLogo{
+    width: 50px;
+    height: 50px;
+}
+
+.exheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: medium;
+    font-style:normal;
+    color:#010A43;
+    gap: 5px; 
+  
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 55px;
+    padding: 2px;
+    padding-left: 5px;
+    
+    
+}
+
+.posthead{
+    background-color:rgba(239 230 230);
+    margin-bottom: 2px;
+    height: 90px;
+    width: 600px;
+    font-size: small;
+    font-style: oblique;
+    border-radius: 5px;
+    padding:2px;
+    padding-left: 10px;
+    /* font-size: 12px; */
+
+}
+.postTitle{
+    color:#ED6663;
+    /* color:rgba(204 108 94); */
+    font-style:normal;
+    /* font-weight: 1000; */
+}
+
+/* .organization{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.gfg{
+    display: flex;
+    flex-direction: column;
+    /* gap:5px; */
+    /* background-color: green; */
+}
+.subexperience2{
+
+    margin-top: 10px;
+    font-size: small;
+   
+}
+.organization{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 15px;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 4px;  
+}
+.tenure{
+    font-style: italic;
+}
+.LinkCertificate{
+    width: 10px;
+    height: 10px;
+}

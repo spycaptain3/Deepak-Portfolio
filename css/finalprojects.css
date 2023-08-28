@@ -1,0 +1,126 @@
+.finalprojects{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(290 250 250);
+    display: flex;
+    /* justify-content:center; */
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.projectHeading{
+    color: #002d5b;
+    font-size: large;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#underlineproject{
+    font-weight: 500;
+    font-size: larger;
+    color: #da6558;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.projectsCard{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+    margin-top: 50px;
+    
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #FAF1F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .swiper-slide img {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    background-color: rebeccapurple;
+   
+  } */
+
+  .projimg{
+    object-fit: cover;
+    background-color: #da6558;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+   
+
+  }
+  .projimges{
+    /* object-fit: cover; */
+    background-color: rgb(14, 4, 94);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgb(193, 117, 101);
+  }
+  
+  .projbutton{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+  }
+#ProjLink{
+  color: white;
+  text-decoration: none;
+}
+  .git{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(204 108 94);
+    color: whitesmoke;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  .projvideo{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(204 108 94);
+    color: whitesmoke;
+    border-radius: 3px;
+  
+  }
+  .Cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .projName{
+    font-size: large;
+    font-weight: bold;
+    
+    text-decoration: solid;
+    color: #002d5b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+  }
+  
